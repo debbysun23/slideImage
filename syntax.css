@@ -1,0 +1,34 @@
+.slider{
+    width: 50%;
+    margin: 50px auto;
+    position: relative;
+    border: 10px solid lightblue;
+    box-shadow: 0px 0px 5px 2px #ccc;
+}
+
+.img-box img{
+    width: 100%;
+    
+}
+
+button{
+    padding: 5px;
+    border: none;
+    background-color: lightblue;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+}
+
+button:hover{
+background-color: cornflowerblue;
+}
+.next{
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 637px;
+}
+.prev{
+    border-radius: 0px 10px 10px 0px;
+    
+}
